@@ -500,7 +500,7 @@ body {
 .aligncenter, img.aligncenter { clear: both; display: block; margin: 10px auto 10px auto; }
 .wp-caption { background: #fff; max-width: 96%; /* Image does not overflow the content area */ padding: 5px 3px 10px; text-align: center; }
 .wp-caption img { border: 0 none; margin: 0; padding: 0; }
-.wp-caption p.wp-caption-text { margin: 0; padding: 5px; font-family: Philosopher, "Times New Roman", Times, serif; color: #1b1b1b; 	line-height: 1.9; font-size: 12px; }
+.wp-caption p.wp-caption-text { margin: 0; padding: 5px; font-family: Philosopher, "Philosopher", Times, serif; color: #1b1b1b; 	line-height: 1.9; font-size: 12px; }
 .wp-smiley { max-height: 12px; margin: 0 !important; }
 .gallery img, .gallery dl { margin: 0; }
 .gallery-caption { margin: -20px 0 0 0; }
