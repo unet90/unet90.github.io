@@ -1104,7 +1104,7 @@ ul.single-offer-category-filter li {
 .single-offer-title {
     font-size: 22px;
     color: #242424;
-    font-family: 'Philosopher', cursive;
+    font-family: 'Philosopher';
     line-height: 1;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -1113,7 +1113,7 @@ ul.single-offer-category-filter li {
 .single-offer-title:first-letter {
     font-size: 30px;
     color: #fa6440;
-    font-family: 'Philosopher', cursive;
+    font-family: 'Philosopher';
     line-height: 1;
     margin-bottom: 10px;
     text-decoration: underline;
