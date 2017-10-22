@@ -1,12 +1,42 @@
 <?php
-
-$recepient = "vladi4ek1990@gmail.com";
-$sitename = "Арин-Берд";
-
-$name = trim($_POST["name"]);
-$mail = trim($_POST["mail"]);
-$comment = trim($_POST["comment"]);
-$message = "Имя: $name \nТелефон: $mail \nТекст: $comment";
-
-$pagetitle = "Новая заявка с сайта \"$sitename\"";
-mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: $recepient");
+$method = $_SERVER['REQUEST_METHOD'];
+//Script Foreach
+$c = true;
+if ( $method === 'POST' ) {
+	$name = trim($_POST["name"]);
+	$mail = trim($_POST["mail"]);
+	$comment = trim($_POST["comment"]);
+	foreach ( $_POST as $key => $value ) {
+		if ( $value != "" && $key != "name" && $key != "mail" && $key != "comment" ) {
+			$message .= "
+			" . ( ($c = !$c) ? '<tr>':'<tr style="background-color: #f8f8f8;">' ) . "
+				<td style='padding: 10px; border: #e9e9e9 1px solid;'><b>$key</b></td>
+				<td style='padding: 10px; border: #e9e9e9 1px solid;'>$value</td>
+			</tr>
+			";
+		}
+	}
+} else if ( $method === 'GET' ) {
+	$name = trim($_GET["name"]);
+	$mail = trim($_GET["mail"]);
+	$comment = trim($_GET["comment"]);
+	foreach ( $_GET as $key => $value ) {
+		if ( $value != "" && $key != "name" && $key != "mail" && $key != "comment" ) {
+			$message .= "
+			" . ( ($c = !$c) ? '<tr>':'<tr style="background-color: #f8f8f8;">' ) . "
+				<td style='padding: 10px; border: #e9e9e9 1px solid;'><b>$key</b></td>
+				<td style='padding: 10px; border: #e9e9e9 1px solid;'>$value</td>
+			</tr>
+			";
+		}
+	}
+}
+$message = "<table style='width: 100%;'>$message</table>";
+function adopt($text) {
+	return '=?UTF-8?B?'.Base64_encode($text).'?=';
+}
+$headers = "MIME-Version: 1.0" . PHP_EOL .
+"Content-Type: text/html; charset=utf-8" . PHP_EOL .
+'From: '.adopt($name).'<vladi4ek1990@mail.ru>' . PHP_EOL .
+'Reply-To: '.$mail.'vladi4ek1990@mail.ru' . PHP_EOL;
+mail($mail, adopt($comment), $message, $headers );
