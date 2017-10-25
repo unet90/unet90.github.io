@@ -71,6 +71,10 @@ ul.post-details li span.post-detail-icon,
     width: 190px;
 }
 
+.orderRetina {
+    width: 80px;
+}
+
 html,
 body,
 applet,
@@ -972,12 +976,15 @@ body.admin-bar .header-wrapper {
     display: none;
 }
 
-.logo {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 80px;
+.orderRetina {
+    display: none;
 }
 
+.logo {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
 
 /*------------------------------------------------------------------
 [end of 3. Header ]
@@ -1204,6 +1211,7 @@ ul.sf-menu {
     list-style: none;
     text-align: center;
     list-style-position: inside;
+    padding: 10px 0;
 }
 
 ul.sf-menu li {
@@ -1402,13 +1410,13 @@ ul.sf-menu li ul li a {
 .footer {
     position: absolute;
     bottom: 50px;
-	padding: 0 30px 0 0;
+	padding: 0 30px 0 30px;
 }
 
 .footer-socials ul.socials-sh {
     text-align: center;
     list-style: none;
-    margin-bottom: 30px;
+    margin-bottom: 2px;
 }
 .footer-socials ul.socials-sh li {
     display: inline;
@@ -2342,3 +2350,29 @@ a.single-search-date {
 /*------------------------------------------------------------------
 [ end of style.css ]
 ------------------------------------------------------------------*/
+
+.order {    
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px 5px;
+}
+
+.downmenu {    
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px 5px;
+    opacity: 0.5;
+}
+
+.downmenu:hover {
+    opacity: 1;
+}
+
+
+
+/*
+.downmenu:hover {
+    opacity: 1;
+}*/

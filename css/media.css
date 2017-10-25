@@ -105,7 +105,22 @@
         display: table;
         padding: 15px;
     }
+    
     .logo {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+    
+    .order {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    } 
+    
+    .downmenu {
         float: none;
         display: table-cell;
         vertical-align: middle;
@@ -116,9 +131,14 @@
         display: table-cell;
         vertical-align: middle;
     }
-    .logo  img {
+    .logo img {
         max-width: 130px;
     }
+    
+    .order img {
+        max-width: 130px;
+    }
+    
     .main-menu {
         display: none;
     }
@@ -257,6 +277,16 @@
     .logo {
         margin-top: 30px;
         margin-bottom: 50px;
+    }
+    
+    .order {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .downmenu {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     
     ul.sf-menu li a {
