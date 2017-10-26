@@ -2370,10 +2370,10 @@ a.single-search-date {
 
 .downmenu {    
     text-align: right;
-    margin-top: 10px;
+    margin-top: 0;
     margin-bottom: 0px;
 /*    margin-left: 150px;*/
-    padding: 0px 5px;
+    padding: 0;
     opacity: 0.8;
 }
 

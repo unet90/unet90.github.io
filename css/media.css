@@ -173,7 +173,7 @@
         display: block;
     }
     .footer-socials ul.socials-sh {
-        margin: 15px 0;
+        margin: 5px 0;
     }
 }
 
@@ -308,7 +308,7 @@
     }
     
     .footer {
-        bottom: 20px;
+        bottom: 0px;
     }
 }
 
@@ -344,7 +344,7 @@
     }
     
     .footer-content {
-        padding-bottom: 13px;
+        padding-bottom: 12px;
     }
     
     ul.post-details li span.post-detail-icon {
