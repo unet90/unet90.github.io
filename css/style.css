@@ -1,3 +1,4 @@
+@charset "utf-8";
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -22,7 +23,7 @@
 * { 
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	box-sizing: border-box; 
+	box-sizing: border-box;
 }
 
 .tagcloud a,
@@ -1220,6 +1221,15 @@ ul.sf-menu li {
     list-style-position: inside;
 	padding: 0;
 	margin: 0;
+}
+
+ul.sf-menu h6 {
+    color: white;
+    opacity: 0.5;
+}
+
+ul.sf-menu h6:hover {
+    opacity: 1;
 }
 
 ul.sf-menu li a {

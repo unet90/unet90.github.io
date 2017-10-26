@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @media only screen and (max-width: 1550px) {
     .offer-menu2-items .offer-menu2-item-single:nth-child(3n+1){
        clear: none;
