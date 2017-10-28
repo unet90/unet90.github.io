@@ -127,6 +127,7 @@
         display: table-cell;
         vertical-align: middle;
         text-align: left;
+        background: none;
 } 
     
     .downmenu {
@@ -167,11 +168,28 @@
         margin-left: 0;
         width: 100%;
         float: left;
+        border-radius: 5px;
     }
+    
+    .down-inner {
+        margin-left: 0;
+        width: 100%;
+        float: left;
+        border-radius: 5px;
+    }
+    
     span.page-title-icon {
         float: left;
     }
     h1.page-title {
+        float: left;
+    }
+    
+    h1.down-title {
+        float: left;
+    }
+    
+    h1.down-title {
         float: left;
     }
     .footer {
@@ -424,3 +442,5 @@
         margin-bottom: 5px !important;
     }
 }
+
+
