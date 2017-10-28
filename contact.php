@@ -1,61 +1,42 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 
-$method = $_SERVER['REQUEST_METHOD'];
-/* Осуществляем проверку вводимых данных и их защиту от враждебных 
-скриптов */
-$name = htmlspecialchars($_POST["name"]);
-$mail = htmlspecialchars($_POST["mail"]);
-$comment = htmlspecialchars($_POST["comment"]);
-/* Устанавливаем e-mail адресата */
-$myemail = "vladi4ek1990@mail.ru";
-/* Проверяем заполнены ли обязательные поля ввода, используя check_input 
-функцию */
-$name = check_input($_POST["name"], "Введите ваше имя!");
-$mail = check_input($_POST["mail"], "Введите ваш e-mail!");
-$comment = check_input($_POST["comment"], "Вы забыли написать сообщение!");
-/* Проверяем правильно ли записан e-mail */
-//if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $mail))
-//{
-//show_error("<br /> Е-mail адрес не существует");
-//}
-/* Создаем новую переменную, присвоив ей значение */
-$message_to_myemail = "Здравствуйте! 
-Вашей контактной формой было отправлено сообщение! 
-Имя отправителя: $name 
-E-mail: $mail 
-Текст сообщения: $comment
-Конец";
-/* Отправляем сообщение, используя mail() функцию */
-$from  = "From: $name <$mail> \r\n Reply-To: $mail \r\n"; 
-mail($myemail, $comment_to_myemail, $from);
-?>
-<p>Ваше сообщение было успешно отправлено!</p>
-<p>На <a href="index.html">Главную >>></a></p>
-<?php
-/* Если при заполнении формы были допущены ошибки сработает 
-следующий код: */
-function check_input($data, $problem = "")
-{
-$data = trim($data);
-$data = stripslashes($data);
-$data = htmlspecialchars($data);
-if ($problem && strlen($data) == 0)
-{
-show_error($problem);
+if (isset($_POST["email"])){
+if (isset($_POST["name"])) {$name = $_POST["name"];}
+if (isset($_POST["email"])) {$email = $_POST["email"];}
+if (isset($_POST["tel"])) {$tel = $_POST["tel"];}
+if (isset($_POST["body"])) {$body = $_POST["body"];}
+
+if($name=="" or $email=="" or $tel=="" or $body==""){ // Проверяем на заполненность всех полей.
+    echo "Заполните все поля";
+}else{
+    $ip=$_SERVER["REMOTE_ADDR"]; // Вычисляем ip пользователя
+    $brose=$_SERVER["HTTP_USER_AGENT"]; // Вычисляем браузер пользователя
+$to = "vladi4ek1990@gmail.com"; // Ваш email адрес
+$subject = "Сообщение c сайта"; // тема письма 
+$headers .= "Content-Type: text/html; charset=UTF-8";
+$headers .= "From: Создание сайтов Trust Code"; // Отправитель письма
+$message = "
+Имя: $name<br>
+E-mail: $email<br>
+Телефон: $tel<br>
+Текст: $body<br><br>
+
+--------------------------------------------------------<br>
+---------------IP отправителя: $ip<br>
+---------------Браузер отправителя: $brose<br>
+"; 
+$send = mail($to, $subject, $message, $headers);
+
+
+ if ($send == "true")
+ {
+ echo "Ваше сообщение отправлено. Мы ответим вам в ближайшее время.";
+ }
+ else
+ {
+ echo "Не удалось отправить, попробуйте снова!";
+ }
 }
-return $data;
-}
-function show_error($myError)
-{
-?>
-<html>
-<body>
-<p>Пожалуйста исправьте следующую ошибку:</p>
-<?php echo $myError; ?>
-</body>
-</html>
-<?php
-exit();
 }
 ?>
