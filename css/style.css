@@ -362,6 +362,7 @@ h5,
 h6,
 h1.page-title,
 h1.down-title,
+h1.phone-title,
 .single-offer-category-filter li a,
 .single-offer-title,
 .single-offer-price,
@@ -405,6 +406,7 @@ h5,
 h6,
 h1.page-title,
 h1.down-title,
+h1.phone-title,
 .single-offer-category-filter li a,
 .single-offer-title,
 .single-offer-price,
@@ -445,6 +447,7 @@ h5,
 h6,
 h1.page-title,
 h1.down-title,
+h1.phone-title
 .single-offer-category-filter li a,
 .single-offer-title,
 .single-offer-price,
@@ -621,6 +624,10 @@ body {
 .page-wrapper {
 	background: #fcf6ec;
 	padding: 50px;
+}
+
+.page-wrapper img {
+    border-radius: 5%;
 }
 
 .page-wrapper p {
@@ -956,7 +963,18 @@ h1.down-title {
 	color: #fab940;
 	font-family: 'Philosopher', sans-serif;
 	font-size: 16px;
-	margin-top: 3px;
+	margin-top:3px;
+    margin-left: 10px;
+}
+
+h1.phone-title {
+    float: right;
+	margin-bottom: 0;
+	line-height: 1;
+	color: #fab940;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 16px;
+	margin-top: 10px;
     margin-left: 10px;
 }
 
@@ -2495,5 +2513,18 @@ a.single-search-date {
 }
 
 .page-title-wrapper a:hover {
+    opacity: 1;
+}
+
+.post-wrap img {
+    border-radius: 10%;
+    
+}
+
+.phone1 {
+    opacity: 0.6;
+}
+
+.phone1:hover {
     opacity: 1;
 }

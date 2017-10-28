@@ -171,6 +171,10 @@
         border-radius: 5px;
     }
     
+    .phone1 {
+        opacity: 1;
+    }
+    
     .down-inner {
         margin-left: 0;
         width: 100%;
@@ -182,6 +186,10 @@
         float: left;
     }
     h1.page-title {
+        float: left;
+    }
+    
+    h1.phone-title {
         float: left;
     }
     
@@ -240,6 +248,7 @@
     .page-wrapper {
         padding: 20px;
     }
+
     .contact-maps {
         margin-left: -20px;
         margin-right: -20px;
@@ -444,3 +453,7 @@
 }
 
 
+
+.post-wrap img {
+    border-radius: 10%;
+}
