@@ -2416,6 +2416,7 @@ a.single-search-date {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-right: 0px;
+    
 }
 
 .order2 h2 {
@@ -2425,12 +2426,12 @@ a.single-search-date {
 
 .order2 a {
 	border: none;
-	padding: 5px 5px;
+	padding: 5px 10px;
 	background: #fab940;
 	color: #333;
 	font-family: 'Philosopher', sans-serif;
 	font-size: 1.2em;
-	letter-spacing: 1px;
+/*	letter-spacing: 1px;*/
 	text-transform: uppercase;
 	cursor: pointer;
 	display: inline-block;
