@@ -28,7 +28,7 @@
 
 .tagcloud a,
 .single-search-categories a,
-.albertos-contact-form input.wpcf7-submit,
+.arinberd-contact-form input.wpcf7-submit,
 .post-categories-names a,
 a.post-read-more,
 .post-tags a,
@@ -155,8 +155,8 @@ time,
 mark,
 audio,
 video,
-.albertos-contact-form input,
-.albertos-contact-form textarea,
+.arinberd-contact-form input,
+.arinberd-contact-form textarea,
 textarea#comment,
 input#author,
 input#email,
@@ -248,8 +248,8 @@ time,
 mark,
 audio,
 video,
-.albertos-contact-form input,
-.albertos-contact-form textarea,
+.arinberd-contact-form input,
+.arinberd-contact-form textarea,
 textarea#comment,
 input#author,
 input#email,
@@ -338,8 +338,8 @@ time,
 mark,
 audio,
 video,
-.albertos-contact-form input,
-.albertos-contact-form textarea,
+.arinberd-contact-form input,
+.arinberd-contact-form textarea,
 textarea#comment,
 input#author,
 input#email,
@@ -370,7 +370,7 @@ h1.phone-title,
 .single-offer-menu2-price,
 .mobile-menu-wrapper ul.mobile-menu li a,
 .contact-detail-title,
-.albertos-contact-form input.wpcf7-submit,
+.arinberd-contact-form input.wpcf7-submit,
 h1.post-title a,
 h1.post-title-single,
 .post-categories-names a,
@@ -414,7 +414,7 @@ h1.phone-title,
 .single-offer-menu2-price,
 .mobile-menu-wrapper ul.mobile-menu li a,
 .contact-detail-title,
-.albertos-contact-form input.wpcf7-submit,
+.arinberd-contact-form input.wpcf7-submit,
 h1.post-title a,
 h1.post-title-single,
 .post-categories-names a,
@@ -455,7 +455,7 @@ h1.phone-title
 .single-offer-menu2-price,
 .mobile-menu-wrapper ul.mobile-menu li a,
 .contact-detail-title,
-.albertos-contact-form input.wpcf7-submit,
+.arinberd-contact-form input.wpcf7-submit,
 h1.post-title a,
 h1.post-title-single,
 .post-categories-names a,
@@ -1544,6 +1544,11 @@ ul.sf-menu li ul li a {
     text-transform: uppercase;
 }
 
+contact-detail-content a {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 16px;
+}
+
 .contact-middle {
     float: left;
 	margin: 0 40px 0 40px
@@ -1555,12 +1560,12 @@ ul.sf-menu li ul li a {
 	line-height: 1;
 }
 
-.albertos-contact-form {
+.arinberd-contact-form {
 /*	float: left;*/
 	width: 100%;
 }
-.albertos-contact-form input,
-.albertos-contact-form textarea {
+.arinberd-contact-form input,
+.arinberd-contact-form textarea {
 	padding: 25px 30px;
     color: #c6b08c;
 	font-size: 14px;
@@ -1574,13 +1579,13 @@ ul.sf-menu li ul li a {
     font-family: 'Philosopher', sans-serif;
 }
 
-.albertos-contact-form input::-webkit-input-placeholder,
-.albertos-contact-form textarea::-webkit-input-placeholder {
+.arinberd-contact-form input::-webkit-input-placeholder,
+.arinberd-contact-form textarea::-webkit-input-placeholder {
     color: #c6b08c;
 	font-size: 16px;
 }
 
-.albertos-contact-form textarea {
+.arinberd-contact-form textarea {
 	max-height: 200px;
 	resize: none;
 }
@@ -1591,7 +1596,7 @@ ul.sf-menu li ul li a {
     opacity: 1;
 }
 
-.albertos-contact-form input.wpcf7-submit {
+.arinberd-contact-form input.wpcf7-submit {
 	color: #242424;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -1605,7 +1610,7 @@ ul.sf-menu li ul li a {
 	margin-top: 12px;
 	font-family: 'Philosopher', sans-serif;
 }
-.albertos-contact-form input.wpcf7-submit:hover {
+.arinberd-contact-form input.wpcf7-submit:hover {
 	background: #242424;
 	color: #fff;
 	cursor: pointer;
@@ -2468,77 +2473,162 @@ a.single-search-date {
     opacity: 1;
 }
 
-.modalDialog {
-		position: fixed;
-		font-family: 'Philosopher', sans-serif;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background: rgba(0,0,0,0.8);
-		z-index: 99999;
-		-webkit-transition: opacity 400ms ease-in;
-		-moz-transition: opacity 400ms ease-in;
-		transition: opacity 400ms ease-in;
-		display: none;
-		pointer-events: none;
-	}
-
-	.modalDialog:target {
-		display: block;
-		pointer-events: auto;
-	}
-
-	.modalDialog > div {
-		width: 400px;
-		position: relative;
-		margin: 10% auto;
-		padding: 5px 20px 13px 20px;
-		border-radius: 10px;
-		background: #fff;
-		background: -moz-linear-gradient(#fff, #999);
-		background: -webkit-linear-gradient(#fff, #999);
-		background: -o-linear-gradient(#fff, #999);
-	}
-
-	.close {
-		background: #606061;
-		color: #FFFFFF;
-		line-height: 25px;
-		position: absolute;
-		right: -12px;
-		text-align: center;
-		top: -10px;
-		width: 24px;
-		text-decoration: none;
-		font-weight: bold;
-		-webkit-border-radius: 12px;
-		-moz-border-radius: 12px;
-		border-radius: 12px;
-		-moz-box-shadow: 1px 1px 3px #000;
-		-webkit-box-shadow: 1px 1px 3px #000;
-		box-shadow: 1px 1px 3px #000;
-	}
-
-	.close:hover { background: #00d9ff; }
-.page-title-wrapper a {
-    opacity: 0.7;
+    .page-title-wrapper a:hover {
+        opacity: 1;
 }
 
-.page-title-wrapper a:hover {
-    opacity: 1;
-}
-
-.post-wrap img {
+    .post-wrap img {
     border-radius: 10%;
-    border: solid #fab940;
+        border: solid #fab940;
 }
 
 
-.phone1 {
-    opacity: 0.6;
+    .phone1 {
+        opacity: 0.6;
 }
 
-.phone1:hover {
-    opacity: 1;
+    .phone1:hover {
+        opacity: 1;
+}
+
+.contact-detail-content a {
+    font-size: 16px;
+}
+
+.contact-detail-content i {
+    font-size: 20px;
+}
+
+
+
+.more {
+    display: table;
+    margin: 3rem auto auto;
+    padding: .825rem 2.5rem 1rem 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: .875rem;
+    line-height: 1.25;
+    font-weight: 700;
+}
+.more:after {
+    content: '→';
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 100;
+    margin-left: 5px;
+    -webkit-transition: -webkit-transform 300ms ease;
+    -webkit-transition-duration: 300ms;
+    -moz-transition: -moz-transform 300ms ease;
+    transition: transform 300ms ease;
+    -webkit-transform: translate3d(0rem,0,0);
+    -moz-transform: translate3d(0rem,0,0);
+    transform: translate3d(0rem,0,0);
+}
+.more:hover {border-color: #fab940;}
+
+.more:hover:after {
+    color: #fab940;
+    -webkit-transform: translate3d(1rem,0,0);
+    -moz-transform: translate3d(1rem,0,0);
+    transform: translate3d(1rem,0,0);
+}
+
+.more:hover {border-color: #009966;}
+
+.more:hover:after {color: #009966;}
+
+.modal-form{
+    z-index: 12;
+    display: none;
+    background: #ffeaa9;
+    width: 300px;
+    height: 316px;
+    position: fixed;
+    left: 50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: -158px;
+}
+
+#close-form{	
+    position: absolute;	
+    top:5px;	
+    right: 5px;	
+    width: 20px;	
+    cursor: pointer;}
+
+.modal-form{	
+    text-align: center;
+}
+
+.modal-form h3,
+.modal-form p.h3 {
+    font-size: 20px;    
+    line-height: normal;
+    font-weight: 100;
+    color: black;
+    margin: 20px;
+    margin-top: 35px
+}
+
+.modal-form .form-input{
+    width: 250px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    padding: 0 6px;
+    margin: 0 0 20px 0;
+    /*font: 100 16px / 20px;*/
+    font-size: 16px;
+    color: #333333;
+    border: solid 1px #c7c7c7;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.modal-form .empty_field{
+    border: solid 1px #009966;
+}
+
+.modal-form .submit-input{
+    width: 250px;
+    font-weight: 300;
+    height: 42px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, .8);
+    border: solid 1px #fab940;    
+    cursor: pointer;
+    padding: 0 6px;
+    margin: 0 0 20px 0;
+    font: 100 16px / 20px 'Roboto', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.empty_int {
+    border: 2px solid #009966 !important;
+}
+
+/*modal-form end*/
+
+#overlay {
+    background-color: #4a4a4a;
+    cursor: pointer;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }

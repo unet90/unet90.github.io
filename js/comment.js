@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
-    $("#contact-form").submit(function() {
+    $("#comment").submit(function() {
         $.ajax({
             type: "POST",
-            url: "database/contact.php",
+            url: "database/comment.php",
             cache: "false",
             dataType: "html",
             beforeSend: function () {
@@ -13,7 +13,7 @@ $(document).ready(function() {
         }).done(function() {
             $(this).find("input").val("");
             alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
-            $("#contact-form").trigger("reset");
+            $("#comment").trigger("reset");
         });
         return false;
     });

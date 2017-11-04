@@ -109,28 +109,6 @@
                             <h1 class="page-title">Контакты</h1>
                             <div class="clear"></div>
                         </div>
-                        <div class="down-inner">
-                            <div class="phone1">
-                                <img src="images/phone.png" width="35px" alt="">
-                                <a href="#openModal">
-                                    <h1 class="phone-title">Заказать звонок</h1>
-                                </a>
-                                <div id="openModal" class="modalDialog">
-                                    <div class="albertos-contact-form">
-                                        <a href="#close" title="Закрыть" class="close">X</a>
-                                        <h2>Обратный звонок</h2>
-                                        <form id="contact-form" action="#"><br>
-                                            <input name="name" type="text" placeholder="Имя" /><br>
-                                            <input name="tel" type="phone" placeholder="Телефон" /><br>
-                                            <div class="contact-submit">
-                                                <input type="submit" value="Заказать звонок" class="wpcf7-form-control wpcf7-submit" id="submit_contact" /></div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
                     </div>
                 </div>
                 <div class="clear"></div>
@@ -149,9 +127,10 @@
                             <div class="contact-detail contact-detail2">
                                 <div class="contact-detail-title">Позвоните или напишите</div>
                                 <div class="contact-detail-content">
-                                    <p><strong><i class="fa fa-mobile" aria-hidden="true"></i> </strong> &nbsp; +38(099) 712-30-90<br />
-                                        <strong><i class="fa fa-phone" aria-hidden="true"></i> </strong> &nbsp;+38(072) 122-84-38<br />
-                                        <strong><i class="fa fa-envelope-o" aria-hidden="true"></i> </strong> &nbsp;unet90@gmail.com</p>
+                                    <p>
+                                        <a href="callto:+380997123090"><strong><i class="fa fa-phone-square" aria-hidden="true"></i> </strong> &nbsp; +38(099) 712-30-90</a><br />
+                                        <a href="callto:+380721228438"><strong><i class="fa fa-phone" aria-hidden="true"></i> </strong> &nbsp; +38(072) 122-84-38</a><br />
+                                        <a href="mailto:unet90@gmail.com"><strong><i class="fa fa-envelope-o" aria-hidden="true"></i> </strong> &nbsp; unet90@gmail.com</a></p>
                                 </div>
                             </div>
                             <div class="contact-detail contact-detail3">
@@ -164,21 +143,19 @@
                         <div class="contact-form-wrapper">
                             <div role="form" class="wpcf7" id="wpcf7-f49-p15-o1" lang="ru" dir="ltr">
                                 <div class="screen-reader-response"></div>
-
-                                <!--                                <form id="contact-form" action="#">-->
-                                <form action="contact.php" method="post">
-                                    <div class="albertos-contact-form">
+                                <form id="comment">
+                                    <div class="arinberd-contact-form">
                                         <div class="contact-detail-title">Контактная форма<br><sub>(временно не работает)</sub></div>
                                         <div class="app-name"><span class="wpcf7-form-control-wrap name-input">
-                                            <input name="name" type="text" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Имя" /></span></div>
-                                        <div class="app-phone"><span class="wpcf7-form-control-wrap email-input">
-                                            <input name="tel" type="text"  value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Номер моб. телефона" /></span></div>
+                                            <input name="name" type="text" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required aria-required="true" aria-invalid="false" placeholder="Имя" /></span></div>
+                                        <div class="app-phone"><span class="wpcf7-form-control-wrap phone-input">
+                                            <input name="phone" type="tel" pattern="(\+?\d[- .]*){7,13}"  value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" required aria-required="true" aria-invalid="false" placeholder="Моб. номер +38(0**)***&macr;**&macr;**" /></span></div>
+                                        <div class="app-email"><span class="wpcf7-form-control-wrap email-input">
+                                            <input name="email" type="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email Адрес" /></span></div>
                                         <p><span class="wpcf7-form-control-wrap appointment-message">
-                                            <textarea name="body" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Сообщение"></textarea></span> </p>
+                                            <textarea name="comment" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" required aria-invalid="false" placeholder="Сообщение"></textarea></span> </p>
                                         <div class="clear"></div>
-                                        <div class="contact-submit"><input type="submit" value="Отправить" class="wpcf7-form-control wpcf7-submit" id="submit_contact" />
-                                            <div id="msg" class="message"></div>
-                                        </div>
+                                        <div class="contact-submit"><input type="submit" value="Отправить" class="wpcf7-form-control wpcf7-submit"  id="submit_contact" /><div id="msg" class="message"></div></div>
                                     </div>
                                 </form>
                             </div>
@@ -255,8 +232,8 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/46416180" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
-
-
+   
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script type='text/javascript' src='js/jquery/jquery.js'></script>
     <script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script>
     <script type='text/javascript' src='rs-slider/js/jquery.themepunch.tools.min.js'></script>
@@ -267,7 +244,7 @@
     <script type='text/javascript' src='js/waypoints.min.js'></script>
     <script type='text/javascript' src='js/jquery.mobilemenu.js'></script>
     <script type='text/javascript' src='js/custom.js'></script>
-    <script type='text/javascript' src='js/contact-form.js'></script>
+    <script type='text/javascript' src='js/comment.js'></script>
     <script type='text/javascript' src='js/custom-inline-js.js'></script>
     <script type='text/javascript' src='js/jquery.isotope.min.js'></script>
     <script type='text/javascript' src='js/script.js'></script>

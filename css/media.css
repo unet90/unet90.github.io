@@ -327,24 +327,6 @@
         margin-bottom: 5px;
     }
     
-    .modalDialog > div {
-        max-width: 400px;
-        position: relative;
-        margin: 2% auto;
-        padding: 5px 5px 5px 5px;
-        border-radius: 10px;
-        background: #fff;
-        background: -moz-linear-gradient(#fff, #999);
-        background: -webkit-linear-gradient(#fff, #999);
-        background: -o-linear-gradient(#fff, #999);
-    }
-
-    .modalDialog h2 {
-        font-size: 2em;
-        text-align: center;
-        margin-top: 20px;
-    }
-    
     .downmenu {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -378,27 +360,9 @@
         padding: 0;
         left: auto;
         float: none;
-        margin: 0 auto 40px;
+        margin: 0 auto;
         clear: both;
     }    
-    
-    .modalDialog > div {
-        max-width: 310px;
-        position: relative;
-        margin: 40% auto;
-        padding: 5px 5px 15px 5px;
-        border-radius: 10px;
-        background: #fff;
-        background: -moz-linear-gradient(#fff, #999);
-        background: -webkit-linear-gradient(#fff, #999);
-        background: -o-linear-gradient(#fff, #999);
-    }
-    
-    .modalDialog h2 {
-        font-size: 1.5em;
-        text-align: center;
-        margin-top: 20px;
-    }
     
     .offer-menu2-frame {
         display: none;
