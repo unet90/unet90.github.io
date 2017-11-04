@@ -1609,11 +1609,13 @@ contact-detail-content a {
 	margin: 0 auto;
 	margin-top: 12px;
 	font-family: 'Philosopher', sans-serif;
+    transition: .6s;
 }
 .arinberd-contact-form input.wpcf7-submit:hover {
 	background: #242424;
 	color: #fff;
 	cursor: pointer;
+    transition: .6s;
 }
 
 /*------------------------------------------------------------------
@@ -2608,7 +2610,7 @@ a.single-search-date {
     cursor: pointer;
     padding: 0 6px;
     margin: 0 0 20px 0;
-    font: 100 16px / 20px 'Roboto', sans-serif;
+    font: 100 16px / 20px 'Philosopher', sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -2617,8 +2619,6 @@ a.single-search-date {
 .empty_int {
     border: 2px solid #009966 !important;
 }
-
-/*modal-form end*/
 
 #overlay {
     background-color: #4a4a4a;
@@ -2632,3 +2632,7 @@ a.single-search-date {
     width: 100%;
     z-index: 10;
 }
+
+
+/*modal-form end*/
+
