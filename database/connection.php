@@ -9,10 +9,10 @@ $user = 'root'; // имя пользователя
 $password = ''; // пароль
 
 /* Таблица MySQL, в которой хранятся данные */ 
-$table = "clients"; 
+$table = ""; 
 
 /* email администратора */ 
-$adminemail = "vladi4ek1990@mail.ru"; 
+$adminemail = ""; 
 
 /*  require_once 'database/connection.php';   // подключаем скрипт  */
 ?>
