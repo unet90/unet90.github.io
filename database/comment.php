@@ -40,7 +40,7 @@ $email = htmlentities(mysqli_real_escape_string($link, $_POST['email']));
 $comment = htmlentities(mysqli_real_escape_string($link, $_POST['comment']));
 
 // создание строки запроса
-$query ="INSERT INTO comment VALUES(NULL,'$name','$phone','$email','$comment')";
+$query ="INSERT INTO comment VALUES(NULL,'$name','$phone','$email','$comment',NOW())";
 
 // выполняем запрос
 $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link)); 

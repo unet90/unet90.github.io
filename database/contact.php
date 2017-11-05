@@ -38,7 +38,7 @@ $name = htmlentities(mysqli_real_escape_string($link, $_POST['name']));
 $phone = htmlentities(mysqli_real_escape_string($link, $_POST['phone']));
 
 // создание строки запроса
-$query ="INSERT INTO arin VALUES('$name','$phone')";
+$query ="INSERT INTO arin VALUES(NULL,'$name','$phone',NOW())";
 
 // выполняем запрос
 $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link)); 
