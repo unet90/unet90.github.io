@@ -86,9 +86,9 @@ jQuery(function(){
 	})
 });
 //end form open/close
-
-jQuery(function(){
-	jQuery(document).ready(function() {
-		jQuery(".phone_input").inputmask({'mask': '+38(099)999 99-99'});
-	}); // ready
-});
+//
+//jQuery(function(){
+//	jQuery(document).ready(function() {
+//		jQuery(".phone_input").inputmask({'mask': '+38(099)999 99-99'});
+//	}); // ready
+//});

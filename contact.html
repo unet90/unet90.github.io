@@ -148,13 +148,13 @@
                                     <div class="arinberd-contact-form">
                                         <div class="contact-detail-title">Контактная форма<br><br></div>
                                         <div class="app-name"><span class="wpcf7-form-control-wrap name-input">
-                                            <input name="name" type="text" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required aria-required="true" aria-invalid="false" placeholder="Ваше имя*" /></span></div>
+                                            <input name="name" type="text" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required aria-required="true" aria-invalid="false" placeholder="* Ваше имя" /></span></div>
                                         <div class="app-phone"><span class="wpcf7-form-control-wrap phone-input">
-                                            <input name="phone" type="tel" pattern="(\+?\d[- .]*){7,13}"  value="" size="40" class="form-input validation phone_input" required aria-required="true" aria-invalid="false" placeholder="Ваш номер телефона* " /></span></div>
+                                            <input name="phone" type="tel" required placeholder="* +38 (___) ___-__-__" id="user_phone" class="user-phone form-input"/></span></div>
                                         <div class="app-email"><span class="wpcf7-form-control-wrap email-input">
                                             <input name="email" type="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Ваш Email адрес" /></span></div>
                                         <p><span class="wpcf7-form-control-wrap appointment-message">
-                                            <textarea name="comment" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" required aria-invalid="false" placeholder="Введите сообщение*"></textarea></span> </p>
+                                            <textarea name="comment" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" required aria-invalid="false" placeholder="* Введите сообщение"></textarea></span> </p>
                                         <div class="clear"></div>
                                         <div class="contact-submit"><input type="submit" value="Отправить" class="wpcf7-form-control wpcf7-submit"  id="submit_contact" /><div id="msg" class="message"></div></div>
                                     </div>
@@ -237,6 +237,8 @@
    
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script type='text/javascript' src='js/jquery/jquery.js'></script>
+    <script type='text/javascript' src='js/jquery.maskedinput.min.js'></script>
+    <script type='text/javascript' src='js/script.js'></script>
     <script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script>
     <script type='text/javascript' src='rs-slider/js/jquery.themepunch.tools.min.js'></script>
     <script type='text/javascript' src='rs-slider/js/jquery.themepunch.revolution.min.js'></script>
