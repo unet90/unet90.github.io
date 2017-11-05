@@ -48,8 +48,8 @@
                         <p class="h3">Оставьте свой телефон &ndash; и мы Вам перезвоним в ближайшее время!</p>
 <!--                            <form action="database/contact.php" method="post">-->
                         <form id="contact-form">                         
-                            <input name="phone" type="tel" required placeholder="+38 (___) ___-__-__" id="user_phone" class="user-phone form-input" title="Формат: +38 (096) 999 99 99"/>
-                            <input name="name" class="form-input validation" placeholder="Ваше имя*" value="" required="" type="text">
+                            <input name="phone" type="tel" required placeholder="* Номер телефона" id="user_phone" class="user-phone form-input" title="Заполните это поле"/>
+                            <input name="name" class="form-input validation" pattern="^[а-яА-ЯёЁa-zA-Z]+$" placeholder="* Ваше имя" value="" required="" type="text" title="Заполните это поле">
                             <input class="submit-input" value="Жду звонка!" type="submit">
                         </form>
                         </div>
