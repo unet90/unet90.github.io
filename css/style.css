@@ -530,7 +530,6 @@ body {
 
 p {
 	margin-bottom: 20px;
-    text-indent: 5%;
 }
 
 strong {
@@ -643,7 +642,7 @@ body {
 }
 
 .page-wrapper p {
-    font-size: 1.3em;
+    font-size: 1.4em;
     line-height: 26px;
 }
 
@@ -662,7 +661,6 @@ body {
 .page-wrapper h3 {
     font-size: 1.7em;
     text-indent: 5%;
-    line-height: 1.4em;
 }
 
 .page-wrapper ul,
