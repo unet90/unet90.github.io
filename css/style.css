@@ -26,7 +26,7 @@
 	box-sizing: border-box;
 }
 
-body {cursor: url(../images/cursor.png), progress !important;}
+body {cursor: url(../images/cursor.png), default ;}
 
 .tagcloud a,
 .single-search-categories a,
