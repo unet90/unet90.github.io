@@ -2685,3 +2685,9 @@ a.single-search-date {
     -ms-transition: .6s ease;
     transition: .6s ease;
 }
+
+
+#map {
+    width: 100%;
+    height: 400px;
+}
