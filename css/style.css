@@ -58,6 +58,7 @@ ul#menu-main-nav-menu li a:hover,
 ul.post-details li span.post-detail-icon,
 .post-detail-single a:hover {
     color: ;
+    transition: .2s ease;
 }
 
 .page-title-inner,
@@ -2470,17 +2471,21 @@ a.single-search-date {
 	background: #fab940;
 	color: #333;
 	font-family: 'Philosopher', sans-serif;
-	font-size: 1.2em;
+	font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
 /*	letter-spacing: 1px;*/
 	text-transform: uppercase;
 	cursor: pointer;
 	display: inline-block;
 	margin: 3px 2px;
 	border-radius: 10px;
+    transition: .6s ease;
 }
 
 .order2 a:hover {
-	background: #f09c00;
+	background: #29c9d6;
+    transition: .6s ease;
 }
 
 .downmenu {    
@@ -2522,53 +2527,13 @@ a.single-search-date {
     font-size: 20px;
 }
 
-
-
-.more {
-    display: table;
-    margin: 3rem auto auto;
-    padding: .825rem 2.5rem 1rem 4rem;
-    text-transform: uppercase;
-    text-align: center;
-    border: 2px solid #fff;
-    color: #fff;
-    font-size: .875rem;
-    line-height: 1.25;
-    font-weight: 700;
-}
-.more:after {
-    content: '→';
-    display: inline-block;
-    vertical-align: baseline;
-    font-size: 1.5rem;
-    line-height: 1;
-    font-weight: 100;
-    margin-left: 5px;
-    -webkit-transition: -webkit-transform 300ms ease;
-    -webkit-transition-duration: 300ms;
-    -moz-transition: -moz-transform 300ms ease;
-    transition: transform 300ms ease;
-    -webkit-transform: translate3d(0rem,0,0);
-    -moz-transform: translate3d(0rem,0,0);
-    transform: translate3d(0rem,0,0);
-}
-.more:hover {border-color: #fab940;}
-
-.more:hover:after {
-    color: #fab940;
-    -webkit-transform: translate3d(1rem,0,0);
-    -moz-transform: translate3d(1rem,0,0);
-    transform: translate3d(1rem,0,0);
-}
-
-.more:hover {border-color: #009966;}
-
-.more:hover:after {color: #009966;}
+/*modal-form*/
 
 .modal-form{
+    border-radius: 5%;
     z-index: 12;
     display: none;
-    background: #ffeaa9;
+    background: #c6b08c;
     width: 300px;
     height: 316px;
     position: fixed;
@@ -2607,10 +2572,10 @@ a.single-search-date {
     border: 0;
     padding: 0 6px;
     margin: 0 0 20px 0;
-    /*font: 100 16px / 20px;*/
+    font: 100 16px / 20px;
     font-size: 16px;
-    color: #333333;
-    border: solid 1px #c7c7c7;
+    color: #e3e3e3;
+    border: solid 2px #fab940;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -2653,6 +2618,7 @@ a.single-search-date {
     width: 100%;
     z-index: 10;
 }
+
 
 
 /*modal-form end*/
