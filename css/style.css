@@ -1118,17 +1118,25 @@ ul.single-offer-category-filter li {
 
 .single-offer-category-filter li  {
     margin: 10px 0;
+    text-decoration: none;
+    list-style: none;
 }
 
 .single-offer-category-filter li a {
     text-transform: uppercase;
     font-family: 'Philosopher', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1;
+    font-style: italic;
+    display: inline-block;
+    word-break: keep-all;
+}
+.single-offer-category-filter li a:hover {
+    transition: .2s ease;
 }
 
 .single-offer-category-filter li a.selected {
-    color: #fab940;
+    color: #fa4040;
 }
 
 #fullwidth-container {
@@ -1184,6 +1192,13 @@ ul.single-offer-category-filter li {
     line-height: 1;
     text-transform: uppercase;
     margin-bottom: 10px;
+}
+
+.single-offer-title sub {
+    white-space: nowrap;
+    font-size: 14px;
+    text-transform: none;
+    font-style: italic;
 }
 
 .single-offer-title:first-letter {
@@ -2675,4 +2690,13 @@ a.single-search-date {
     display: block;
     position: fixed;
     z-index: 999;
+}
+
+
+
+
+.single-offer-content p {
+    font-size: 1.6em;
+    font-style: italic;
+    line-height: normal;
 }

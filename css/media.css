@@ -99,6 +99,7 @@
         margin-top: 20px;
         width: 100%;
     }
+    
     .header-wrapper {
         width: 100%;
         height: auto;
@@ -239,13 +240,14 @@
     
     .offer-menu2-thumb-image img {
         width: 100%;
+        height: auto;
     }
 
     .offer-menu2-thumb {
             top: 28px;
             left: 30px;
         }
-
+    
     .offer-menu2-inner-frame {
         width: 100%;
     }
@@ -299,6 +301,7 @@
     .single-offer-price {
         float: none;
         display: inline-block;
+        margin-top: 5%;
     }
     .single-offer-item {
         text-align: center;
