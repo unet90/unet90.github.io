@@ -392,6 +392,7 @@
 }
 
 @media print {
+    
     html,
     body {
         width: auto !important;
