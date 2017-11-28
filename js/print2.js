@@ -660,7 +660,7 @@
         var t = $(this).attr("data-attr");
         $.ajax({
             type: "POST",
-            url: "/form/ajax/ghpuform",
+            url: "/database/myemail.php",
             data: {
                 attr: t
             },
