@@ -660,7 +660,7 @@
         var t = $(this).attr("data-attr");
         $.ajax({
             type: "POST",
-            url: "/database/myemail.php",
+            url: "database/myemail.php",
             data: {
                 attr: t
             },
