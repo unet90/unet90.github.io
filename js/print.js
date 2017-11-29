@@ -36,7 +36,7 @@
         else {
             if (a > 0) {
                 var o = new FormData;
-                o.append("noautoshow", !0), xhr = new XMLHttpRequest, xhr.open("POST", "form/nasideform"), xhr.send(o)
+                o.append("noautoshow", !0), xhr = new XMLHttpRequest, xhr.open("POST", "database/myemail.php"), xhr.send(o)
             }
             r[i] = -270, e.removeClass("sideformopen").animate(r, 300, function () {
                 e.attr("style", null)
@@ -92,7 +92,7 @@
     }
 
     function imp_ng() {
-        t = new Image, t.src = "images/eversys.png";
+        t = new Image, t.src = "images/logo_1_1_xs.png";
         var t, e, n = document.createElement("canvas");
         if (n.style.visibility = "hidden", n.style.position = "absolute", n.width = t.width, n.height = t.height, n && n.getContext) {
             e = n.getContext("2d");
