@@ -654,6 +654,16 @@ body {
     list-style-position: outside; 
 }
 
+.page-wrapper h0, strong {
+    font-size: 7em;
+    text-transform: uppercase;
+    background-color: #555;
+    margin-left: 1%;
+    padding-top: 0;
+    text-align: center;
+    display: grid;
+}
+
 .page-wrapper h1:first-letter {
     color: #fab940;
     font-size: 2em;
@@ -663,6 +673,14 @@ body {
 .page-wrapper h3 {
     font-size: 1.7em;
     text-indent: 5%;
+}
+
+.page-wrapper h4 {
+    font-style: oblique;
+    text-transform: none;
+    font-size: 2.5em;
+    text-align: left;
+    background-color: antiquewhite;
 }
 
 .page-wrapper ul,

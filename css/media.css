@@ -100,6 +100,22 @@
         width: 100%;
     }
     
+    .page-wrapper h0, strong {
+        font-size: 5em;
+        margin: 1%;
+        padding: 1%;
+        white-space: nowrap;
+        word-wrap: normal;
+        text-align: center;
+        display: block;
+    }
+    
+    .page-wrapper strong {
+        font-size: 7em;
+        text-align: center;
+        display: block;
+    }
+    
     .header-wrapper {
         width: 100%;
         height: auto;
@@ -124,11 +140,13 @@
     } 
     
     .order2 {
-        float: none;
-        display: table-cell;
+        float: left;
+        display: block;
         vertical-align: middle;
         text-align: left;
         background: none;
+        margin: 0;
+        padding: 0;
 } 
     
     .downmenu {
@@ -230,6 +248,22 @@
         margin: 0 auto 40px;
         clear: both;
     }
+    
+    .page-wrapper h0,strong {
+        font-size: 5em;
+        margin: 1%;
+        padding: 1%;
+        white-space: nowrap;
+        word-wrap: normal;
+        display: block;
+    }
+    
+    .page-wrapper strong {
+        font-size: 7em;
+        text-align: center;
+        display: block;
+    }
+    
     .offer-menu2-items {
         margin: 0;
     }
@@ -254,7 +288,13 @@
     .page-wrapper {
         padding: 20px;
     }
-
+    
+    .page-wrapper strong {
+        font-size: 7em;
+        text-align: center;
+        display: block;
+    }
+    
     .contact-maps {
         margin-left: -20px;
         margin-right: -20px;
@@ -330,8 +370,8 @@
     }
     
     .order2 {
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     
     .downmenu {
@@ -370,6 +410,54 @@
         margin: 0 auto;
         clear: both;
     }    
+    
+    .order {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    } 
+
+    .page-wrapper h0, strong {
+        font-size: 4em;
+        margin: 1%;
+        margin-top: 10%;
+        padding: 1%;
+        white-space: nowrap;
+        word-wrap: normal;
+        word-break: keep-all;
+        display: block;
+    }
+    
+    .page-wrapper strong {
+        font-size: 7em;
+        text-align: center;
+        display: block;
+    }
+    
+    .page-wrapper h1 {
+        font-size: 2em;
+        display: block;
+        background-color: none;
+        letter-spacing: 1px;
+        line-height: 1.1;
+        margin-top: auto;
+        padding-top: auto;
+    }
+    
+    .page-wrapper h2 {
+        font-size: 1.3em;
+    }
+    
+    .order2 {
+        float: left;
+        display: block;
+        vertical-align: middle;
+        text-align: left;
+        background: none;
+    }
     
     .constructor_list_item_price {
         margin: 0 10% 0 0;
