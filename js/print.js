@@ -92,7 +92,7 @@
     }
 
     function imp_ng() {
-        t = new Image, t.src = "images/logo_1_1_xs.png";
+        t = new Image, t.src = "images/eversys.png";
         var t, e, n = document.createElement("canvas");
         if (n.style.visibility = "hidden", n.style.position = "absolute", n.width = t.width, n.height = t.height, n && n.getContext) {
             e = n.getContext("2d");
@@ -626,7 +626,7 @@
     $(function () {
         return $(".pano_button").on("click", function () {
             return embedpano({
-                swf: "",
+                swf: "3d/Shuvaloff_pc.swf",
                 target: "panoDIV",
                 passQueryParameters: !0
             }), $(".pano_out").addClass("showpano")
@@ -646,6 +646,102 @@
         return void 0 === e && (e = $(".print_block")), !!e.length && (e.hasClass("print_block") || e.addClass("yes_print"), n = e.parent(), $.each(n.children(), function () {
             if (!$(this).hasClass("yes_print") && !$(this).hasClass("print_block")) return $(this).addClass("no_print")
         }), "BODY" !== n[0].tagName && t(n), !0)
+    }
+}.call(this),
+    function () {
+    var t;
+    $(function () {
+        var t;
+        return t = $("#shater_plan_img"), t.length && (t.maphilight({
+            shadow: !0,
+            fillOpacity: .4,
+            strokeColor: "000000",
+            shadowOpacity: 1,
+            strokeWidth: 2,
+            groupBy: "data-num-block"
+        }), $(".shater_map_area, .shater_plan_img_dot").on("click", function (t) {
+            var e, n;
+            return t.preventDefault(), n = $(this).data("num-block"), e = $(".shater_map_area[data-num-block=" + n + "]"), $(".shater_map_area").each(function (t, e) {
+                return $(e).data("maphilight", {
+                    alwaysOn: !1,
+                    fillColor: $(e).data("maphilight").fillColor,
+                    strokeColor: $(e).data("maphilight").strokeColor
+                }).trigger("alwaysOn.maphilight")
+            }), e.data("maphilight", {
+                alwaysOn: !0,
+                fillColor: e.data("maphilight").fillColor,
+                strokeColor: e.data("maphilight").strokeColor
+            }).trigger("alwaysOn.maphilight").mouseleave(), $(".shater_plan_blocks_elem").css({
+                display: "none"
+            }), $(".shater_plan_blocks_elem[data-num-pl=" + n + "]").css({
+                display: "block"
+            })
+        })), $("body").on("click", ".popover_close", function () {
+            return $(this).closest(".popover").prev().popover("hide")
+        })
+    }), t = function () {
+        var t;
+        return t = $(".shater_plan_blocks_elem.active").attr("data-num-pl"), $(".shater_map_area[data-num-block=" + t + "]").mouseover()
+    }
+}.call(this),
+    function () {
+    var t;
+    $(function () {
+        var t, e, n;
+        for ($(window).on("scroll", function () {
+            var t, e;
+            if (e = $(window).scrollTop(), t = $(".pageup"), e > 100 && !t.length && ($("body").append('<div class="pageup"><i class="fa fa-chevron-up"></i></div>'), $("body .pageup").css({
+                display: "block"
+            }).animate({
+                opacity: 1
+            }, 300)), e < 100 && t.length) return t.animate({
+                opacity: 0
+            }, 300, function () {
+                return t.remove()
+            })
+        }), $("body").on("click", ".pageup", function () {
+            return $("html, body").animate({
+                scrollTop: 0
+            }, 500)
+        }), $(".home_block_7_button").on("click", function () {
+            var t, e, n, i, a, r;
+            return r = $(this), t = r.html(), a = $('.home_block_7_texts > div[data-num="' + t + '"]'), i = a.children(".hb7_title").html(), e = a.children(".hb7_subtitle").html(), n = a.children(".hb7_text").html(), $(".home_block_7_button").removeClass("current"), r.addClass("current"), $(".home_block_7_title").html(i), $(".home_block_7_subtitle").html(e), $(".home_block_7_text").html(n)
+        }), $('[data-toggle="popover"]').popover({
+            placement: "bottom",
+            html: !0,
+            trigger: "manual",
+            animation: !1
+        }).on("click", function () {
+            return $(this).popover("toggle"), $('[data-toggle="popover"]').not(this).popover("hide")
+        }), $("body").on("homewlent_change_slide", function (t, e) {
+            var n, i;
+            return i = $(".home_block_2_text_elem").not(":nth-child(" + e + ")"), n = $(".home_block_2_text_elem:nth-child(" + e + ")"), i.animate({
+                opacity: 0
+            }, 150, function () {
+                return i.css({
+                    display: "none"
+                }), n.css({
+                    display: "block"
+                }).animate({
+                    opacity: 1
+                }, 150)
+            })
+        }), n = "https://maps.googleapis.com/maps/api/distancematrix/json?key=AIzaSyBuv9ZEnP9WNt0nFjoYnUJuo3i2KRjp9Uo&origins=41.43206,-81.38992|-33.86748,151.20699", t = $(".bcrumb a"), e = 1; void 0 !== t[e];) $("[href='" + $(t[e]).attr("href") + "']").not(".bcrumb a").addClass("current active"), e++;
+        return $("[href='" + window.location.pathname + "']").addClass("current active")
+    }), t = function () {
+        var t, e, n;
+        n = "undefined";
+        try {
+            n = new ActiveXObject("Msxml2.XMLHTTP")
+        } catch (i) {
+            e = i;
+            try {
+                n = new ActiveXObject("Microsoft.XMLHTTP")
+            } catch (e) {
+                t = e, n = !1
+            }
+        }
+        return n || "undefined" == typeof XMLHttpRequest || (n = new XMLHttpRequest), n
     }
 }.call(this), $(function () {
     initial_datepicker(), procactform(), $("body").on("keyup change ghformchange dp.change input", ".ghform", function () {

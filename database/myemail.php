@@ -4,9 +4,11 @@ header("Content-Type: text/html; charset=utf-8");
 $recepient = ($_POST["self_email"]);
 $sitename = "Арин-Берд";
 
+var_dump($_POST['ghpuformbg']);
 
 $email = htmlspecialchars ($_POST["self_email"]);
-$name = ($_POST["constructor_number_person"]);
+$name = json_decode($_POST['attr: t']);
+
 
 
 $message = "Имя: $name \r\n";
