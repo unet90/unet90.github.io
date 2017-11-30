@@ -4,10 +4,17 @@ header("Content-Type: text/html; charset=utf-8");
 $recepient = ($_POST["self_email"]);
 $sitename = "Арин-Берд";
 
-var_dump($_POST['ghpuformbg']);
+//var_dump($_POST['ghpuformbg']);
+
+$json = '{"constructor_menu_body"}';
+print_r($arr);
+var_dump(json_decode($json));
+//var_dump(json_decode($json, true));
+
 
 $email = htmlspecialchars ($_POST["self_email"]);
-$name = json_decode($_POST['attr: t']);
+$name = json_decode($_POST['constructor_menu_body']);
+//$name = json_decode(stripslashes($_COOKIE['constructor_menu_body']),true);
 
 
 

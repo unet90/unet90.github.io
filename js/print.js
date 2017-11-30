@@ -326,7 +326,7 @@
                 var n, i, a, r, o, s;
                 return t.preventDefault(), i = new FormData, o = $(this), r = o.attr("data-rel"), n = /\[([^\]]*)\]$/i, (a = n.exec(r)) ? ($.each($('[data-rel="' + r + '"]'), function (t, e) {
                     return i.append(t, $(e).attr("href"))
-                }), i.append("uniq", a[1])) : i.append(0, o.attr("href")), s = new XMLHttpRequest, s.open("POST", "slider/ajax/ghibox"), s.send(i), s.onload = function (t) {
+                }), i.append("uniq", a[1])) : i.append(0, o.attr("href")), s = new XMLHttpRequest, s.open("POST", "database/ghibox"), s.send(i), s.onload = function (t) {
                     var n;
                     return $("body").append(t.currentTarget.responseText), $(".ghibox").css({
                         top: $(window).scrollTop()
