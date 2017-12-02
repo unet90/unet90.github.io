@@ -3,25 +3,28 @@ header("Content-Type: text/html; charset=utf-8");
 
 $recepient = ($_POST["self_email"]);
 $sitename = "Арин-Берд";
-
-//var_dump($_POST['ghpuformbg']);
-
-$json = '{"constructor_menu_body"}';
-print_r($arr);
-var_dump(json_decode($json));
-//var_dump(json_decode($json, true));
-
-
+    
 $email = htmlspecialchars ($_POST["self_email"]);
-$name = json_decode($_POST['constructor_menu_body']);
-//$name = json_decode(stripslashes($_COOKIE['constructor_menu_body']),true);
 
+//$data = "document.write(localStorage.getItem('imprs'))";
+//$data = isset($_POST['localData'])?$_POST['localData']:"";
 
+$json = json_encode(array("id"=>"val"));
+echo $json;
 
-$message = "Имя: $name \r\n";
+$name = ($_POST["number_person"]);
+$data = ($_POST["constructor_result_menu_list_all"]);
+echo '<div class="constructor_result_menu_list_all">';
+//$name = json_decode($_POST["constructor_result_menu_list_all"]);
+//$data = ($_REQUEST['constructor_result_menu_list_all']);
+//$json_string = json_encode($data, JSON_PRETTY_PRINT);
+//$name = ($_POST["constructor_result_menu_list_all"]); 
+echo "Значение параметра id данного элемента: $name, $data, $json_string, $json"; 
+
+//$message = "Имя: $name \r\n DATA: $data \r\n STRING: $json_string";
 
 $pagetitle = "Новая заявка с сайта \"$sitename\"";
-mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\r\n From: $recepient");
+//mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\r\n From: $recepient");
 
 //$to = ($_POST["self_email"]);
 $subject = 'Арин-Берд';
@@ -31,3 +34,4 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
 //mail($to, $subject, $message, implode("\r\n", $headers));
+?>

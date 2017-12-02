@@ -764,6 +764,7 @@
             success: function (t) {
                 var e = $.parseJSON(t),
                     n = $(e.html);
+//                    console.log(t);
                 void 0 != e.outinputs && $.each(e.outinputs, function (t, e) {
                     var i = $(e.selector);
                     if (i.length) {
