@@ -54,7 +54,7 @@ $query ="INSERT INTO comment VALUES(NULL,'$name','$phone','$email','$comment',NO
 $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link)); 
 if($result)
 {
-    echo "<span style='color:#fab940; background-color:black; font-size:1.5em; font-family:Philosopher, sans-serif'>Данные добавлены</span>";
+    echo "<span style='color:#fab940; background-color:black; font-size:1.5em; font-family:Kurale, sans-serif'>Данные добавлены</span>";
 }
 
 

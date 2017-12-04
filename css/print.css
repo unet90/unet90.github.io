@@ -258,7 +258,7 @@
 .constructor_list_item_name:first-letter {
     color: #fa6440;
     font-size: 1.5em;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
 }
 
 .constructor_list_item_name:after {
@@ -421,7 +421,7 @@
 }
 
 .wrapper {
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
     color: #4e504f;
     font-size: 16px;
     font-weight: 300
@@ -446,6 +446,6 @@ h3 {
     color: #333;
     font-size: 180%;
     margin: 0px 0px 40px 0px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
 }
 

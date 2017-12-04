@@ -495,7 +495,7 @@ html, body, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a,
 	font-size: 11px;
 	font-weight: 400;
 	line-height: 2;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 	letter-spacing: 0.5px;
 }
 
@@ -519,7 +519,7 @@ body {
 .aligncenter, img.aligncenter { clear: both; display: block; margin: 10px auto 10px auto; }
 .wp-caption { background: #fff; max-width: 96%; /* Image does not overflow the content area */ padding: 5px 3px 10px; text-align: center; }
 .wp-caption img { border: 0 none; margin: 0; padding: 0; }
-.wp-caption p.wp-caption-text { margin: 0; padding: 5px; font-family: 'Philosopher', sans-serif; color: #1b1b1b; 	line-height: 1.9; font-size: 12px; }
+.wp-caption p.wp-caption-text { margin: 0; padding: 5px; font-family: 'Kurale', sans-serif; color: #1b1b1b; 	line-height: 1.9; font-size: 12px; }
 .wp-smiley { max-height: 12px; margin: 0 !important; }
 .gallery img, .gallery dl { margin: 0; }
 .gallery-caption { margin: -20px 0 0 0; }
@@ -667,7 +667,7 @@ body {
 .page-wrapper h1:first-letter {
     color: #fab940;
     font-size: 2em;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
 }
     
 .page-wrapper h3 {
@@ -715,7 +715,7 @@ ol li li {
 	margin-bottom: 0;
 }
  code {
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 	font-size: 12px;
 	font-size: 0.857142857rem;
 	line-height: 2;
@@ -723,7 +723,7 @@ ol li li {
  pre {
 	border: 1px solid #ededed;
 	color: #666;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 	font-size: 12px;
 	font-size: 0.857142857rem;
 	line-height: 1.714285714;
@@ -933,7 +933,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #000;
 	line-height: 1;
 	text-transform: uppercase;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 }
 
 h1 {
@@ -991,7 +991,7 @@ h1.page-title {
 	margin-bottom: 0;
 	line-height: 1;
 	color: #fcf6ec;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 	font-size: 32px;
 	margin-top: 3px
 }
@@ -1001,7 +1001,7 @@ h1.down-title {
 	margin-bottom: 0;
 	line-height: 1;
 	color: #fab940;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 	font-size: 16px;
 	margin-top:3px;
     margin-left: 10px;
@@ -1012,7 +1012,7 @@ h1.phone-title {
 	margin-bottom: 0;
 	line-height: 1;
 	color: #fab940;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 	font-size: 16px;
 	margin-top: 10px;
     margin-left: 10px;
@@ -1142,7 +1142,7 @@ ul.single-offer-category-filter li {
 
 .single-offer-category-filter li a {
     text-transform: uppercase;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
     font-size: 18px;
     line-height: 1;
     font-style: italic;
@@ -1206,7 +1206,7 @@ ul.single-offer-category-filter li {
 .single-offer-title {
     font-size: 22px;
     color: #242424;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
     line-height: 1;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -1222,7 +1222,7 @@ ul.single-offer-category-filter li {
 .single-offer-title:first-letter {
     font-size: 30px;
     color: #fa6440;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
     line-height: 1;
     margin-bottom: 10px;
 /*    text-decoration: underline;*/
@@ -1241,7 +1241,7 @@ ul.single-offer-category-filter li {
     width: 80px;
     font-size: 25px;
     color: #fab940;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
     line-height: 1;
     text-align: right;
 }
@@ -1273,7 +1273,7 @@ span.offer-menu2-icon:before {
 .single-offer-menu2-title {
     font-size: 30px;
     color: #242424;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
     line-height: 1;
     margin-bottom: 10px;
 }
@@ -1281,7 +1281,7 @@ span.offer-menu2-icon:before {
 .single-offer-menu2-price {
     font-size: 26px;
     color: #9b040c;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
     line-height: 1;
 }
 
@@ -1334,7 +1334,7 @@ ul.sf-menu h6:hover {
 
 ul.sf-menu li a {
     color: #fcf6ec;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
     font-size: 24px;
     line-height: 1.6;
     text-transform: uppercase;
@@ -1407,7 +1407,7 @@ ul.sf-menu li ul li a {
     border-bottom: 1px solid #000;
     font-size: 14px;
     text-transform: uppercase;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
 }
 
 .mobile-menu-wrapper ul.mobile-menu  li a:hover, .mobile-menu-wrapper ul.mobile-menu  li.current_page_item a {
@@ -1588,7 +1588,7 @@ ul.sf-menu li ul li a {
 .contact-detail {margin-bottom: 30px}
 
 .contact-detail-title {
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
     font-size: 20px;
     margin-bottom: 10px;
     line-height: 1;
@@ -1596,7 +1596,7 @@ ul.sf-menu li ul li a {
 }
 
 contact-detail-content a {
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
     font-size: 16px;
 }
 
@@ -1627,7 +1627,7 @@ contact-detail-content a {
 	-webkit-appearance: none;
     background: #242424;
     border: none;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
 }
 
 .arinberd-contact-form input:focus {
@@ -1664,7 +1664,7 @@ contact-detail-content a {
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 12px;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
     
 }
 .arinberd-contact-form input.wpcf7-submit:hover {
@@ -1687,7 +1687,7 @@ h1.post-title  {
 
 h1.post-title a,
 h1.post-title-single {
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
     font-size: 38px;
     text-transform: none;
     line-height: 1;
@@ -1711,7 +1711,7 @@ h1.post-title a:hover {
     padding: 5px 10px;
 	margin: 0 5px;
 	text-transform: uppercase;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 	font-size: 12px;
     line-height: 1;
 }
@@ -1761,7 +1761,7 @@ ul.post-details li span.post-detail-icon {
 a.post-read-more {
 	background: #fab940;
 	color: #242424;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	padding: 10px 30px 11px;
@@ -1841,7 +1841,7 @@ a:hover .view-overlay-icon {
     color: #242424;
     padding: 3px 7px;
 	margin-right: 5px;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 	text-transform: uppercase;
 	font-size: 11px;
 }
@@ -1891,7 +1891,7 @@ textarea#comment {
 	margin-bottom: 8px;
 	-webkit-appearance: none;
 	font-weight: 400;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 	resize: none;
 }
 
@@ -1909,7 +1909,7 @@ input#url {
 	margin-bottom: 8px;
 	-webkit-appearance: none;
 	font-weight: 400;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 }
 
 input#author::-webkit-input-placeholder,
@@ -1940,7 +1940,7 @@ input#submit.submit {
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 12px;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 	border: none;
 }
 
@@ -1985,7 +1985,7 @@ cite.fn {
 	line-height: 1;
 	color: #242424;
 	font-size: 16px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
 }
 cite.fn a {
 	position: relative;
@@ -1995,7 +1995,7 @@ cite.fn a {
 	line-height: 1;
 	color: #242424;
 	font-size: 16px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
 }
 
 a.comment-date {
@@ -2019,7 +2019,7 @@ a.comment-date {
 	border-left: 0;
 	border-right: 0;
 	border-top: 0;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 }
 .reply a:hover {
 	color: #555;
@@ -2101,7 +2101,7 @@ p.comment-form-comment {margin-bottom: 0;}
 	text-transform: uppercase;
 	line-height: 1;
 	text-align: center;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
     margin-top: -20px
 }
 .error-content2 {
@@ -2128,7 +2128,7 @@ a.error-page-url {
 	margin-top: 40px;
 	background: #fab940;
 	padding: 10px 15px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
 }
 
 a.error-page-url:hover {
@@ -2206,7 +2206,7 @@ h3.sidebar-title {
 	  text-transform: uppercase;
 	  background: #242424;
 	 padding: 16px 20px 17px 30px;
-	  font-family: 'Philosopher', sans-serif;
+	  font-family: 'Kurale', sans-serif;
 	  border-radius: 0;
 	  margin-left: 0;
 	border: none;
@@ -2230,7 +2230,7 @@ h3.sidebar-title {
 	text-transform: uppercase;
 	margin: 0;
 	font-size: 14px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
 }
 #calendar_wrap th {
 	color: #212121;
@@ -2298,7 +2298,7 @@ h3.sidebar-title {
 
 .recentcomments a {
     display: block;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
 	color: #555;
 	font-size: 14px;
 	line-height: 1
@@ -2310,7 +2310,7 @@ h3.sidebar-title {
 
 .recentcomments  {
     color: #242424;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
 	font-size: 14px;
 	line-height: 1.6;
 	margin-bottom: 20px !important;
@@ -2333,7 +2333,7 @@ h3.sidebar-title {
 	display: block;
 	line-height: 1.2;
 	text-transform: uppercase;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
 }
 .widget_rss ul li a:hover {
 	color: #555;
@@ -2357,7 +2357,7 @@ h3.sidebar-title {
 
 .widget_rss cite { 
 	color: #242424; 
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
 }
 
 .index-page ul.post-details {
@@ -2386,14 +2386,14 @@ div.widget_search.search_page_search_form { margin: 20px 0; }
 	-moz-box-sizing: border-box;
 	outline: none;
 	-webkit-appearance: none;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 }
 
 input#searchsubmit {
     border: none;
     background: #fab940;
     color: #242424;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     padding: 5px 10px;
@@ -2435,7 +2435,7 @@ input#searchsubmit:hover {
 .screen-reader-text {display: none;}
 
 a.single-search-title {
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 	font-size: 28px;
 	text-transform: none;
 	line-height: 1;
@@ -2456,7 +2456,7 @@ a.single-search-title:hover {
     padding: 5px 10px;
 	margin: 0 5px 0 0;
 	text-transform: uppercase;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 	font-size: 12px;
     line-height: 1;
 }
@@ -2503,7 +2503,7 @@ a.single-search-date {
 	padding: 5px 10px;
 	background: #fab940;
 	color: #333;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Kurale', sans-serif;
 	font-size: 1.3em;
     font-weight: bold;
     font-style: italic;
@@ -2629,7 +2629,7 @@ a.single-search-date {
     cursor: pointer;
     padding: 0 6px;
     margin: 0 0 20px 0;
-    font: 100 16px / 20px 'Philosopher', sans-serif;
+    font: 100 16px / 20px 'Kurale', sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -2668,7 +2668,7 @@ a.single-search-date {
     text-align: center;
     margin: 0 auto;
     margin-top: 12px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Kurale', sans-serif;
     -webkit-transition: .6s ease;
     -moz-transition: .6s ease;
     -o-transition: .6s ease;

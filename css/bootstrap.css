@@ -78,7 +78,7 @@ form .col {
 }
 
 html {
-    font-family: 'Philosopher', serif;
+    font-family: 'Kurale', serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -1424,7 +1424,7 @@ html {
 }
 
 body {
-    font-family: 'Philosopher', serif;
+    font-family: 'Kurale', serif;
     font-size: 14px;
     line-height: 1.428571429;
     color: #333
@@ -10074,7 +10074,7 @@ button.list-group-item-danger.active:hover {
     word-break: normal;
     word-spacing: normal;
     word-wrap: normal;
-    font-family: 'Philosopher', Arial, sans-serif;
+    font-family: 'Kurale', Arial, sans-serif;
     text-decoration: none
 }
 
@@ -10646,7 +10646,7 @@ button.close {
     width: 20px;
     height: 20px;
     line-height: 1;
-    font-family: 'Philosopher', serif;
+    font-family: 'Kurale', serif;
 }
 
 .carousel-control .icon-prev:before {
