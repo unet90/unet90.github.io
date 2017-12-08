@@ -1,5 +1,5 @@
 <?php 
-header("Content-Type: text/html; charset=utf-8");
+//header("Content-Type: text/html; charset=utf-8");
 
 $recepient = "vladi4ek1990@mail.ru";
 $sitename = "Арин-Берд";
@@ -8,10 +8,10 @@ $name = htmlspecialchars ($_POST["name"]);
 $email = htmlspecialchars ($_POST["email"]);
 $phone = htmlspecialchars ($_POST["phone"]);
 $comment = htmlspecialchars ($_POST["comment"]);
-$message = "Имя: $name \r\nEmail: $email \r\nТелефон: $phone \r\nТекст: $comment";
+$message = "Имя: $name \r\n Email: $email \r\n Телефон: $phone \r\n Текст: $comment";
 
 $pagetitle = "Новая заявка с сайта \"$sitename\"";
-mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\r\n From: $recepient");
+mail($recepient, $pagetitle, $message);
 
 $to = ($_POST["email"]);
 $subject = 'Арин-Берд';
