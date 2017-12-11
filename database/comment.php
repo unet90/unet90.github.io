@@ -1,5 +1,4 @@
 <?php 
-//header("Content-Type: text/html; charset=utf-8");
 
 $recepient = "vladi4ek1990@mail.ru";
 $sitename = "Арин-Берд";
